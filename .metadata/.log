@@ -1,0 +1,1161 @@
+!SESSION 2024-11-17 21:44:49.893 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+This is a continuation of log file D:\python\workspace\.metadata\.bak_0.log
+Created Time: 2024-11-17 21:47:02.198
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-17 21:47:02.201
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/python/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731847622188
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:02.205
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-17 21:47:02.475
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5504
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-17 21:47:21.001
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82109'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:21.931
+!MESSAGE Boot project ADDED: KJS_Spring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:21.932
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:21.936
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:21.984
+!MESSAGE Boot project ADDED: Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.189
+!MESSAGE Boot project ADDED: Project_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.194
+!MESSAGE Boot project ADDED: SilverTown
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.198
+!MESSAGE Boot project ADDED: TeamProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.233
+!MESSAGE Boot project ADDED: p0708_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.272
+!MESSAGE Boot project ADDED: p0708_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.304
+!MESSAGE Boot project ADDED: p0708_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.403
+!MESSAGE Boot project ADDED: p0708_04
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.437
+!MESSAGE Boot project ADDED: p0709_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.676
+!MESSAGE Boot project ADDED: p0709_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.889
+!MESSAGE Boot project ADDED: p0709_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:22.952
+!MESSAGE Boot project ADDED: p0709_Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.017
+!MESSAGE Boot project ADDED: p0710_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.096
+!MESSAGE Boot project ADDED: p0710_05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.134
+!MESSAGE Boot project ADDED: p0711_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.167
+!MESSAGE Boot project ADDED: p0711_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.196
+!MESSAGE Boot project ADDED: p0712_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.310
+!MESSAGE Boot project ADDED: p0712_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.509
+!MESSAGE Boot project ADDED: p0714_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.672
+!MESSAGE Boot project ADDED: p0715_01_테이블조인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.794
+!MESSAGE Boot project ADDED: p0715_02_ajax
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.799
+!MESSAGE Boot project ADDED: p0715_03_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.801
+!MESSAGE Boot project ADDED: p0716_01_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.803
+!MESSAGE Boot project ADDED: p0717_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.805
+!MESSAGE Boot project ADDED: p0718_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.806
+!MESSAGE Boot project ADDED: p0718_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.807
+!MESSAGE Boot project ADDED: p0719_01_카카오 로그인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-17 21:47:23.808
+!MESSAGE Boot project ADDED: 카카오 로그인
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-17 21:48:26.566
+!MESSAGE executing callback sts4.classpath.ejHCUVmo FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-11-17 21:48:26.567
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:51:23.649
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:51:23.651
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:51:23.654
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:51:23.656
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:51:23.670
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:51:23.677
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:56:37.246
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:56:37.249
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:56:37.251
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:56:37.253
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:56:37.267
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 21:56:37.275
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 22:01:53.693
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 22:01:53.695
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 22:01:53.697
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 22:01:53.699
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 22:01:53.711
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-17 22:01:53.716
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2024-11-19 15:14:15.772 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-19 15:15:34.029
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-19 15:15:39.532
+!MESSAGE Logback config file: D:\python\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-19 15:15:40.982
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-19 15:15:40.982
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-19 15:15:41.961
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-19 15:15:41.961
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-19 15:15:57.794
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/python/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731996957794
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:15:57.794
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-19 15:15:58.001
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12028
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-19 15:16:09.324
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82109'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.730
+!MESSAGE Boot project ADDED: KJS_Spring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.730
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.737
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.740
+!MESSAGE Boot project ADDED: Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.740
+!MESSAGE Boot project ADDED: Project_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.746
+!MESSAGE Boot project ADDED: SilverTown
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.748
+!MESSAGE Boot project ADDED: TeamProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.783
+!MESSAGE Boot project ADDED: p0708_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.824
+!MESSAGE Boot project ADDED: p0708_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.851
+!MESSAGE Boot project ADDED: p0708_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.889
+!MESSAGE Boot project ADDED: p0708_04
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.922
+!MESSAGE Boot project ADDED: p0709_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.953
+!MESSAGE Boot project ADDED: p0709_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:09.983
+!MESSAGE Boot project ADDED: p0709_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.032
+!MESSAGE Boot project ADDED: p0709_Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.064
+!MESSAGE Boot project ADDED: p0710_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.094
+!MESSAGE Boot project ADDED: p0710_05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.135
+!MESSAGE Boot project ADDED: p0711_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.136
+!MESSAGE Boot project ADDED: p0711_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.138
+!MESSAGE Boot project ADDED: p0712_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.139
+!MESSAGE Boot project ADDED: p0712_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.140
+!MESSAGE Boot project ADDED: p0714_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.142
+!MESSAGE Boot project ADDED: p0715_01_테이블조인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.143
+!MESSAGE Boot project ADDED: p0715_02_ajax
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.145
+!MESSAGE Boot project ADDED: p0715_03_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.148
+!MESSAGE Boot project ADDED: p0716_01_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.148
+!MESSAGE Boot project ADDED: p0717_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.152
+!MESSAGE Boot project ADDED: p0718_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.155
+!MESSAGE Boot project ADDED: p0718_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.157
+!MESSAGE Boot project ADDED: p0719_01_카카오 로그인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 15:16:10.159
+!MESSAGE Boot project ADDED: 카카오 로그인
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-19 15:16:59.043
+!MESSAGE Could get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:155)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:148)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.canFix(JavaCorrectionProcessor.java:525)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.canFix(QuickAssistAssistant.java:130)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.hasQuickFix(DefaultMarkerAnnotationAccess.java:435)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.getImage(DefaultMarkerAnnotationAccess.java:390)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:266)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:795)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:530)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.redraw(AnnotationRulerColumn.java:821)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4058)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-19 15:16:59.141
+!MESSAGE executing callback sts4.classpath.hHMOQeoW FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-11-19 15:16:59.142
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-19 15:16:59.374
+!MESSAGE Could get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:155)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:148)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.canFix(JavaCorrectionProcessor.java:525)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.canFix(QuickAssistAssistant.java:130)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.hasQuickFix(DefaultMarkerAnnotationAccess.java:435)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.getImage(DefaultMarkerAnnotationAccess.java:390)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:266)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:795)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:530)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.redraw(AnnotationRulerColumn.java:821)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4058)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-19 15:16:59.683
+!MESSAGE Could get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:155)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:148)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.canFix(JavaCorrectionProcessor.java:525)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.canFix(QuickAssistAssistant.java:130)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.hasQuickFix(DefaultMarkerAnnotationAccess.java:435)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.getImage(DefaultMarkerAnnotationAccess.java:390)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:266)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:795)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:530)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.redraw(AnnotationRulerColumn.java:821)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4058)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-19 15:17:11.657
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-19 15:28:51.819
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-19 15:28:51.823
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-19 15:28:51.825
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-19 15:28:51.827
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-19 15:28:51.840
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-19 15:28:51.846
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2024-11-19 15:29:01.017
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.io.File.<init>(File.java:278)
+	at org.eclipse.wst.xml.core.internal.catalog.CatalogWriter.getOutputStream(CatalogWriter.java:350)
+	at org.eclipse.wst.xml.core.internal.catalog.CatalogWriter.write(CatalogWriter.java:56)
+	at org.eclipse.wst.xml.core.internal.catalog.Catalog$CatalogLS.save(Catalog.java:56)
+	at org.eclipse.wst.xml.core.internal.catalog.Catalog$DefaultCatalogLS.load(Catalog.java:83)
+	at org.eclipse.wst.xml.core.internal.catalog.Catalog.load(Catalog.java:656)
+	at org.eclipse.wst.xml.core.internal.catalog.CatalogSet.lookupOrCreateCatalog(CatalogSet.java:43)
+	at org.eclipse.wst.xml.core.internal.XMLCorePlugin.getDefaultXMLCatalog(XMLCorePlugin.java:79)
+	at org.eclipse.wst.xml.core.internal.catalog.XMLCatalogURIResolverExtension.resolve(XMLCatalogURIResolverExtension.java:37)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.core.internal.modelquery.XMLCatalogIdResolver.resolve(XMLCatalogIdResolver.java:94)
+	at org.eclipse.wst.xml.core.internal.modelquery.XMLModelQueryAssociationProvider.resolveGrammarURI(XMLModelQueryAssociationProvider.java:60)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.XMLAssociationProvider.resolveGrammarURI(XMLAssociationProvider.java:170)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.lookupOrCreateResolvedURI(CMDocumentManagerImpl.java:124)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.addCMDocumentReference(CMDocumentManagerImpl.java:206)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentLoader.handleGrammar(CMDocumentLoader.java:226)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentLoader.loadCMDocuments(CMDocumentLoader.java:90)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.InferredGrammarBuildingCMDocumentLoader.loadCMDocuments(InferredGrammarBuildingCMDocumentLoader.java:58)
+	at org.eclipse.wst.xml.ui.internal.DOMObserver.invokeCMDocumentLoad(DOMObserver.java:216)
+	at org.eclipse.wst.xml.ui.internal.DOMObserver$TimerJob.run(DOMObserver.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-11-21 15:41:21.323 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-21 15:42:58.575
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-21 15:43:05.240
+!MESSAGE Logback config file: D:\python\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-21 15:43:06.927
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-21 15:43:06.927
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-21 15:43:09.154
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-21 15:43:09.154
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-21 15:44:12.291
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82109'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.630
+!MESSAGE Boot project ADDED: KJS_Spring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.632
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.741
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.743
+!MESSAGE Boot project ADDED: Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.745
+!MESSAGE Boot project ADDED: Project_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.748
+!MESSAGE Boot project ADDED: SilverTown
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.925
+!MESSAGE Boot project ADDED: TeamProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.927
+!MESSAGE Boot project ADDED: p0708_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.929
+!MESSAGE Boot project ADDED: p0708_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.930
+!MESSAGE Boot project ADDED: p0708_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.933
+!MESSAGE Boot project ADDED: p0708_04
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.940
+!MESSAGE Boot project ADDED: p0709_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.942
+!MESSAGE Boot project ADDED: p0709_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.944
+!MESSAGE Boot project ADDED: p0709_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.945
+!MESSAGE Boot project ADDED: p0709_Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.947
+!MESSAGE Boot project ADDED: p0710_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.950
+!MESSAGE Boot project ADDED: p0710_05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.957
+!MESSAGE Boot project ADDED: p0711_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.958
+!MESSAGE Boot project ADDED: p0711_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.961
+!MESSAGE Boot project ADDED: p0712_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.963
+!MESSAGE Boot project ADDED: p0712_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.964
+!MESSAGE Boot project ADDED: p0714_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.969
+!MESSAGE Boot project ADDED: p0715_01_테이블조인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.972
+!MESSAGE Boot project ADDED: p0715_02_ajax
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.973
+!MESSAGE Boot project ADDED: p0715_03_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.975
+!MESSAGE Boot project ADDED: p0716_01_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.977
+!MESSAGE Boot project ADDED: p0717_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.978
+!MESSAGE Boot project ADDED: p0718_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.981
+!MESSAGE Boot project ADDED: p0718_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.982
+!MESSAGE Boot project ADDED: p0719_01_카카오 로그인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:16.985
+!MESSAGE Boot project ADDED: 카카오 로그인
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-21 15:44:17.341
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/python/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1732171457340
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-21 15:44:17.343
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-21 15:44:17.691
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 19536
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-21 15:52:51.831
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-21 16:08:37.658
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-21 16:08:51.419
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-12-01 16:05:59.484 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-01 16:07:31.251
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-01 16:07:40.847
+!MESSAGE Logback config file: D:\python\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-12-01 16:07:42.600
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-01 16:07:42.600
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-12-01 16:07:43.883
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-01 16:07:43.883
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-01 16:08:01.473
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/python/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1733036881473
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:01.477
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-01 16:08:01.645
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14820
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-01 16:08:14.186
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82109'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.175
+!MESSAGE Boot project ADDED: KJS_Spring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.179
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.183
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.286
+!MESSAGE Boot project ADDED: Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.385
+!MESSAGE Boot project ADDED: Project_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.421
+!MESSAGE Boot project ADDED: SilverTown
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.496
+!MESSAGE Boot project ADDED: TeamProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.560
+!MESSAGE Boot project ADDED: p0708_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.595
+!MESSAGE Boot project ADDED: p0708_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.665
+!MESSAGE Boot project ADDED: p0708_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.700
+!MESSAGE Boot project ADDED: p0708_04
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.734
+!MESSAGE Boot project ADDED: p0709_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.872
+!MESSAGE Boot project ADDED: p0709_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.905
+!MESSAGE Boot project ADDED: p0709_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:15.938
+!MESSAGE Boot project ADDED: p0709_Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.035
+!MESSAGE Boot project ADDED: p0710_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.095
+!MESSAGE Boot project ADDED: p0710_05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.156
+!MESSAGE Boot project ADDED: p0711_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.190
+!MESSAGE Boot project ADDED: p0711_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.274
+!MESSAGE Boot project ADDED: p0712_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.303
+!MESSAGE Boot project ADDED: p0712_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.363
+!MESSAGE Boot project ADDED: p0714_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.365
+!MESSAGE Boot project ADDED: p0715_01_테이블조인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.366
+!MESSAGE Boot project ADDED: p0715_02_ajax
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.369
+!MESSAGE Boot project ADDED: p0715_03_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.370
+!MESSAGE Boot project ADDED: p0716_01_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.372
+!MESSAGE Boot project ADDED: p0717_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.373
+!MESSAGE Boot project ADDED: p0718_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.375
+!MESSAGE Boot project ADDED: p0718_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.376
+!MESSAGE Boot project ADDED: p0719_01_카카오 로그인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 16:08:16.378
+!MESSAGE Boot project ADDED: 카카오 로그인
+!SESSION 2025-01-04 15:29:42.289 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-04 15:33:43.211
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-04 15:33:52.601
+!MESSAGE Logback config file: D:\python\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-01-04 15:33:54.691
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-04 15:33:54.691
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-01-04 15:33:55.950
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-04 15:33:55.950
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 15:34:14.986
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/python/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1735972454984
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:14.989
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 15:34:15.173
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11540
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-04 15:34:27.783
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82109'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.462
+!MESSAGE Boot project ADDED: KJS_Spring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.465
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.471
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.515
+!MESSAGE Boot project ADDED: Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.573
+!MESSAGE Boot project ADDED: Project_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.575
+!MESSAGE Boot project ADDED: SilverTown
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.577
+!MESSAGE Boot project ADDED: TeamProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.611
+!MESSAGE Boot project ADDED: p0708_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.658
+!MESSAGE Boot project ADDED: p0708_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.693
+!MESSAGE Boot project ADDED: p0708_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.749
+!MESSAGE Boot project ADDED: p0708_04
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.870
+!MESSAGE Boot project ADDED: p0709_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.907
+!MESSAGE Boot project ADDED: p0709_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.947
+!MESSAGE Boot project ADDED: p0709_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:28.988
+!MESSAGE Boot project ADDED: p0709_Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.057
+!MESSAGE Boot project ADDED: p0710_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.105
+!MESSAGE Boot project ADDED: p0710_05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.139
+!MESSAGE Boot project ADDED: p0711_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.227
+!MESSAGE Boot project ADDED: p0711_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.271
+!MESSAGE Boot project ADDED: p0712_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.319
+!MESSAGE Boot project ADDED: p0712_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.349
+!MESSAGE Boot project ADDED: p0714_test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.387
+!MESSAGE Boot project ADDED: p0715_01_테이블조인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.394
+!MESSAGE Boot project ADDED: p0715_02_ajax
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.396
+!MESSAGE Boot project ADDED: p0715_03_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.398
+!MESSAGE Boot project ADDED: p0716_01_하단댓글
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.399
+!MESSAGE Boot project ADDED: p0717_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.401
+!MESSAGE Boot project ADDED: p0718_01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.402
+!MESSAGE Boot project ADDED: p0718_02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.404
+!MESSAGE Boot project ADDED: p0719_01_카카오 로그인
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 15:34:29.405
+!MESSAGE Boot project ADDED: 카카오 로그인
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 15:35:33.749
+!MESSAGE executing callback sts4.classpath.JxabXXME FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-01-04 15:35:33.750
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-01-04 15:35:33.938
+!MESSAGE Could get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:155)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:148)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.canFix(JavaCorrectionProcessor.java:525)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.canFix(QuickAssistAssistant.java:130)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.hasQuickFix(DefaultMarkerAnnotationAccess.java:435)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.getImage(DefaultMarkerAnnotationAccess.java:390)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:266)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:795)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:530)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.redraw(AnnotationRulerColumn.java:821)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4058)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-01-04 15:35:56.134
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-01-04 16:53:33.870
+!MESSAGE ExecutionException occurred during shutdown of EndpointProxy for org.eclipse.lsp4j.jsonrpc.RemoteEndpoint@6427d34e
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: 파이프가 닫히는 중입니다
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:551)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: 파이프가 닫히는 중입니다
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:313)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy14/jdk.proxy14.$Proxy36.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:549)
+	... 7 more
+Caused by: java.io.IOException: 파이프가 닫히는 중입니다
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:367)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 16:53:33.896
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/python/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1735977213893
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 16:53:33.900
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 16:53:33.901
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 16:53:33.903
+!MESSAGE Stopped org.springframework.tooling.boot.ls LS process 11540
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 16:53:33.934
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11536
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 16:53:50.461
+!MESSAGE executing callback sts4.classpath.cjBSZpkB FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-01-04 16:53:50.462
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

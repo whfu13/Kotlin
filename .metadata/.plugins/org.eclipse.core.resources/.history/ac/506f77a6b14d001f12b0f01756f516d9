@@ -1,0 +1,30 @@
+package com.java.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class FrontController {
+
+	@RequestMapping({"/", "/index"})
+	public String index() {
+		return "index";
+		
+	}// 메인페이지
+	
+//	@RequestMapping("/signin")
+//	public String signin() {
+//		return "signin";
+//		
+//	}// 로그인페이지
+	@RequestMapping("/memeber/signup1")
+	public String signup1() {
+		return "member/signup1";
+		
+	}// 로그인페이지
+//	@RequestMapping("/memeber/signup2")
+//	public String signup2() {
+//		return "member/signup2";
+//		
+//	}// 로그인페이지
+}

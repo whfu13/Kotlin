@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;board&apos;&#x0D;&#x0A;- Original project: &apos;p0712_01&apos;&#x0D;&#x0A;- Destination element: &apos;board&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     reply_view.html&#x0D;&#x0A;     modify_view.html&#x0D;&#x0A;     write_view.html&#x0D;&#x0A;     content_view.html&#x0D;&#x0A;     list.jsp" description="Copy files" element1="src/main/webapp/WEB-INF/views/board/reply_view.html" element2="src/main/webapp/WEB-INF/views/board/modify_view.html" element3="src/main/webapp/WEB-INF/views/board/write_view.html" element4="src/main/webapp/WEB-INF/views/board/content_view.html" element5="src/main/webapp/WEB-INF/views/board/list.jsp" files="5" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1720953488203" target="/p0714_test/src/main/webapp/WEB-INF/views/board" units="0" version="1.0"/>
+</session>

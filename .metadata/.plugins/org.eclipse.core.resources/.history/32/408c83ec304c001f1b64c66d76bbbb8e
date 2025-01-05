@@ -1,0 +1,33 @@
+package com.java.service;
+
+import java.util.Map;
+import com.java.dto.Customer2Dto;
+
+public interface Customer2Service {
+	
+	// 게시판 불러오기
+	Map<String, Object> selectAll(int page, String category, String sWord);
+
+	// 게시글 불러오기
+	Map<String, Object> selectOne(Customer2Dto c2dto);
+
+	// 게시글 저장
+	void insertPost(Customer2Dto c2dto);
+
+	// 게시글 삭제
+	void delete2Post(Customer2Dto c2dto);
+
+	// 게시글 수정
+	Customer2Dto update2Post(Customer2Dto c2dto);
+
+	// 게시글 수정저장
+	void doUpdate2Post(Customer2Dto c2dto);
+
+	// 게시글 답글추가
+	void insertReply(Customer2Dto c2dto);
+
+
+
+
+
+}

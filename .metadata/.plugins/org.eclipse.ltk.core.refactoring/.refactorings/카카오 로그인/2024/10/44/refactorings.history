@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;KakaoDto.java&apos; to &apos;KJS_Spring/src/main/java/com.java.dto&apos;&#x0D;&#x0A;- Original project: &apos;카카오 로그인&apos;&#x0D;&#x0A;- Destination element: &apos;KJS_Spring/src/main/java/com.java.dto&apos;&#x0D;&#x0A;- Original element: &apos;com.java.dto.KakaoDto.java&apos;" description="Copy compilation unit" destination="=KJS_Spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.java.dto" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.java.dto{KakaoDto.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1730271814854" units="1" version="1.0"/>
+</session>

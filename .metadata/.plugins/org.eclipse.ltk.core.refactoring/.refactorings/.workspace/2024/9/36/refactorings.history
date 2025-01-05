@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 25 resources" deleteContents="false" description="Delete 25 resources" element1="/p0708_01" element10="/p0710_05" element11="/p0711_01" element12="/p0711_02" element13="/p0712_01" element14="/p0712_02" element15="/p0714_test" element16="/p0715_01_테이블조인" element17="/p0715_02_ajax" element18="/p0715_03_하단댓글" element19="/p0716_01_하단댓글" element2="/p0708_02" element20="/p0717_01" element21="/p0718_01" element22="/p0718_02" element23="/p0719_01_카카오 로그인" element24="/Project" element25="/TeamProject" element3="/p0708_03" element4="/p0708_04" element5="/p0709_01" element6="/p0709_02" element7="/p0709_03" element8="/p0709_Test" element9="/p0710_01" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="25" stamp="1725600712062"/>
+</session>

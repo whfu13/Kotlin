@@ -1,0 +1,51 @@
+package com.java.service;
+
+import java.util.ArrayList;
+
+import com.java.dto.MemberDto;
+
+public interface MemberService {
+
+	// 모든 사용자 정보 가져오기
+	ArrayList<MemberDto> selectAll();
+	// 로그인 시도
+	MemberDto selectSignIn(MemberDto memberDto);
+
+	// 자동 로그인 토큰으로 사용자 찾기
+	MemberDto findByAutoLoginToken(String autoLoginToken);
+
+	// 자동 로그인 토큰 생성
+	String generateAutoLoginToken(MemberDto mDto);
+
+	// 아이디로 사용자 정보 찾기
+	MemberDto findByUsername(String id);
+
+	// 비밀번호 업데이트
+	void updatePassword(MemberDto memberDto);
+
+	// 임시 비밀번호 저장
+	void saveTempPassword(MemberDto memberDto);
+
+	// 임시 비밀번호 가져오기
+	String getTempPassword(String id);
+	
+	// 회원 정보 저장
+	void insertMember(MemberDto memberDto);
+	
+	// 아이디 중복 체크
+	boolean isIdDuplicated(String id);
+	
+	// 회원탈퇴
+	void deleteMember(String id);
+
+	// 회원정보 조회
+	MemberDto selectOne(String id);
+	
+	// 회원정보 수정
+	MemberDto updateMember(String id);
+	
+	//회원정보 수정저장
+	void doUpdateMember(String id);
+
+
+}
